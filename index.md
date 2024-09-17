@@ -2,14 +2,16 @@
 
 Eduxchange.eu technical documentation lives here
 
-## openonderwijsapi
+## About OOAPI
 
-- [How to connect OOAPI endpoints](./connecting-ooapi.endpoints.md)
+- [How to connect OOAPI endpoints?](./connecting-ooapi.endpoints.md)
 
 ## About Enrolment
 
 - How does the enrolment work in general?
   - [Sequence diagram for EuroTeQ enrolment](./sequence-diagram.md)
+- What are the possible initial states of an association?
+  - [Flowchart of the association states](./association-states.md)
 
 ## About the enrolment receiver
 
