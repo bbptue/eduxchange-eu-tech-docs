@@ -5,7 +5,7 @@ logging:
     generiek: DEBUG
 
 server:
-  port: 8092 # change if docker setup is changed
+  port: 8092  # change if docker setup is changed
   error:
     path: "/error"
     include-message: always
@@ -87,8 +87,8 @@ backend:
   api_password: secret
 
 oidc:
-  #Special authentication needs (like MFA) can be spefified here
-  #acr-context-class-ref: https://refeds.org/profile/mfa
+  # Special authentication needs (like MFA) can be spefified here
+  # acr-context-class-ref: https://refeds.org/profile/mfa
   #
   # oidc-client id and secret received when connected to MyacademicID
   client-id: APP-000000000-00000-0000-0000-0000000000
@@ -99,7 +99,7 @@ oidc:
   #
   # Don't edit these
   authorization-uri: https://proxy.prod.erasmus.eduteams.org/OIDC/authorization
-  token-uri:   https://proxy.prod.erasmus.eduteams.org/OIDC/token
+  token-uri: https://proxy.prod.erasmus.eduteams.org/OIDC/token
   jwk-set-uri: https://proxy.prod.erasmus.eduteams.org/OIDC/jwks
   jwk:
     # The HTTP connect timeout for JWK set retrieval, in millisecond
