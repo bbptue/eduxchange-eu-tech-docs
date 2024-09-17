@@ -2,11 +2,17 @@
 
 Eduxchange.eu technical documentation lives here
 
+## openonderwijsapi
+
+- [How to connect OOAPI endpoints](./connecting-ooapi.endpoints.md)
+
 ## About Enrolment
-- How does the enrolment work in general? 
+
+- How does the enrolment work in general?
   - [Sequence diagram for EuroTeQ enrolment](./sequence-diagram.md)
 
 ## About the enrolment receiver
+
 - Can you tell me more about the communication between the generic part of the enrollment
 receiver and the custom implementation at the host institution?
   - [Communication dataformat](./dataformat.md)
