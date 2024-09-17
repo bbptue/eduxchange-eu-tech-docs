@@ -1,7 +1,5 @@
 # This is a FAQ
 
-Eduxchange.eu technical documentation lives here
-
 ## About OOAPI
 
 - [How to connect OOAPI endpoints?](./connecting-ooapi.endpoints.md)
