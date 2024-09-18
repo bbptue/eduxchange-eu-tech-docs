@@ -7,3 +7,21 @@ The HOST and HOME institutions each have their own business logic rules they can
 btw: states can change later.
 
 ![Association States](./images/inschrijven-gastinstelling-EN.drawio.png)
+
+## Explanation of rules governing the association state
+
+- pending (proces is waiting on the status of the students home institution)
+- associated (the student is enrolled in the learning activity)
+- canceled (by student)
+- denied (either learning activity is stopped or student is not allowed)
+- queued (student is put on a waiting list)
+
+## Explanation of rules governing the association remoteState
+
+- pending (proces is waiting on the status of the students home institution)
+- associated (the student is enrolled in the learning activity)
+- canceled (by student)
+- denied (student is not allowed)
+- queued (student is put on a waiting list)
+
+[(source)](https://openonderwijsapi.nl/#/technical/consumers-and-profiles/eduxchange?id=explanation-of-rules-governing-the-association-state)
