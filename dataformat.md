@@ -49,3 +49,30 @@ To validate a student is still active at the home institution, the backend can s
 The backend can send the guest-users' results to the home institution by POST'ing an OOAPI association object to the `/api/results` endpoint of the subscription receiver. It will add the necessary authentication, and forward the request to the home institution. It will use the `personId` in the association object to find the correct oauth token for the user.
 
 Also read the informaion about [Consumers and Profiles](https://openonderwijsapi.nl/#/technical/consumers-and-profiles/eduxchange)
+
+## Response
+
+The backend responds to the /api/start request with a (HTTP 200) json response:
+
+``` json
+{
+  "result": "ok",
+  "code": 200,
+  "message": "A message to show to the enrolling user",
+  "oo-api-offering-id": "<The offeringid from the request>"
+}
+```
+
+The defined values for `code` are:
+
+| Value | Label                                            |
+|-------|--------------------------------------------------|
+| 200   | 200 - All is good                                |
+| 400   | 400 - Backend error                              |
+| 404   | 404 - Person endpoint not found                  |
+| 409   | 409 - Queue-session validation failed            |
+| 412   | 412 - Invalid enrollmentRequest                  |
+| 417   | 417 - Token request failed                       |
+| 419   | 419 - eduID not present in the ARP               |
+| 422   | 422 - Administrative error (already enrolled)    |
+| 500   | 500 - Not so good                                |
