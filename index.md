@@ -18,3 +18,5 @@ receiver and the custom implementation at the host institution?
   - [Communication dataformat](./dataformat.md)
 - Do you have an example configuration of the enrolment receiver?
   - [example application.yaml for enrollment receiver](./application.yaml)
+- How do I run the enrollment receiver?
+  - It's advised to use the docker image [as described here](./running.md)
