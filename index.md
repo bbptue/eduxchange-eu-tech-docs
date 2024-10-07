@@ -57,5 +57,4 @@ receiver and the custom implementation at the host institution?
 - How do I connect to MyAcademicID?
   - The enrollment receiver needs to be connected as a relying party to
   MyAcademicID. The API server needs to be connected as a Resource Server.
-  Both can be registered by filling in this
-  [myacademic id registration form](https://wiki.geant.org/display/SM/Registering+services+on+MyAcademicID)
+  Both can be registered by [filling in the myacademic id registration form](./registration.md)
