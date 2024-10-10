@@ -32,7 +32,7 @@ receiver and the custom implementation at the host institution?
   - There is a [demo enrollment broker](https://demobroker.eduxchange.eu/)
   available for testing.
   - To connect to the demo enrollment broker, edit this yaml document
-  and send it to Peter:
+  and send it to Peter or Jelmer:
 
     ``` yaml
     schacHome: demoinst02.eduxchange.eu
