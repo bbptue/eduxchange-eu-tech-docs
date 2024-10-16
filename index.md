@@ -70,8 +70,13 @@ receiver and the custom implementation at the host institution?
   When receiving a token, the MyUniversity's API endpoint **must** validate if
   the scope is valid for the API being called.
 
-
 - How do I connect to MyAcademicID?
   - The enrollment receiver needs to be connected as a relying party to
   MyAcademicID. The API server needs to be connected as a Resource Server.
   Both can be registered by [filling in the myacademic id registration form](./registration.md)
+
+## Status
+
+- Where can I see what has to be done, and what has already been done by
+all institutions?
+  - [See the status page here](./progress.md)
