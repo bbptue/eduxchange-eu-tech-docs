@@ -36,21 +36,21 @@ receiver and the custom implementation at the host institution?
 
     ``` yaml
     schacHome: demoinst02.eduxchange.eu
-    name: Demo 02 home
-    abbreviation: Demo02home
-    courseEndpoint: "https://demoinst02.eduxchange.eu/basic/offerings"
-    personsEndpoint: "https://demoinst02.eduxchange.eu/persons/me"
-    personAuthentication: HEADER
-    associationsEndpoint: "https://demoinst02.eduxchange.eu/associations"
-    authenticationEndpoint: "https://demoinst01.eduxchange.eu/api/enrollment"
-    registrationEndpoint: "https://demoinst01.eduxchange.eu/api/start"
-    registrationUser: "user"
-    registrationPassword: "secret"
-    logoURI: https://static.surfconext.nl/logos/idp/surf.png
-    scopes: demoinst02.eduxchange.eu/persons demoinst02.eduxchange.eu/results
-    privacyEndpoint: https://www.surf.nl/studentmobiliteit
-    useEduHubForOffering: False
-    useQueueIt: False
+    name: Demo 02 home  # The display name for your institution
+    abbreviation: Demo02home  # The short name
+    courseEndpoint: "https://demoinst02.eduxchange.eu/basic/offerings"  # The OOAPI endpoint for courses
+    personsEndpoint: "https://demoinst02.eduxchange.eu/persons/me"  # The OOAPI endpoint for persons
+    personAuthentication: HEADER  # Should always be HEADER for token based authentication
+    associationsEndpoint: "https://demoinst02.eduxchange.eu/associations" # The OOAPI endpoint for courses
+    authenticationEndpoint: "https://demoinst01.eduxchange.eu/api/enrollment" # This is on the enrollment-receiver
+    registrationEndpoint: "https://demoinst01.eduxchange.eu/api/start"  # This is on the enrollment-receiver
+    registrationUser: "user"  # These are configured in the broker section of the enrollment-receiver config file
+    registrationPassword: "secret"  # These are configured in the broker section of the enrollment-receiver config file
+    logoURI: https://static.surfconext.nl/logos/idp/surf.png # The logo to be displayed for your institution
+    scopes: demoinst02.eduxchange.eu/persons demoinst02.eduxchange.eu/results   # The scopes required for accessing the persons and associations endpoints
+    privacyEndpoint: https://www.surf.nl/studentmobiliteit  # A link to the privacy declaration
+    useEduHubForOffering: True # Should always be True for EuroTeq
+    useQueueIt: False # Should always be False for EuroTeq
     ```
 
 - What are scopes? What should I use for scopes?
