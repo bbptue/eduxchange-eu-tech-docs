@@ -3,6 +3,8 @@
 ## About OOAPI
 
 - [How to connect OOAPI endpoints?](./connecting-ooapi.endpoints.md)
+- Where can I find an example of protecting my API (`/persons/` `/assiciations/`) using oauth/MyAcademicID?
+  - [Mock implementation of a home institution](https://github.com/SURFnet/student-mobility-home-institution-mock)
 
 ## About Enrolment
 
