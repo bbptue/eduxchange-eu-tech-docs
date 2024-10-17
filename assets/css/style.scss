@@ -9,3 +9,29 @@
     padding: 20px 10px;
     margin: 0 auto;
 }
+
+#header_wrap .inner {
+    padding: 20px 10px 30px 10px;
+}
+
+#editthispage {
+  float: right;
+  color: #fff;
+}
+
+.eduxchange_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004c97;
+}
+.eduxchange_header_link {
+    flex-grow: 1;
+    font-size: 1.625rem;
+    line-height: 2.25rem;
+    text-decoration: none;
+    font-family: var(--nunito), sans-serif;
+    color: #fff;
+    padding: .375rem .75rem;
+}
