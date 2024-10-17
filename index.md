@@ -75,6 +75,11 @@ receiver and the custom implementation at the host institution?
   MyAcademicID. The API server needs to be connected as a Resource Server.
   Both can be registered by [filling in the myacademic id registration form](./registration.md)
 
+- How does this OpenID connect Oauth thing work? What is the flow for token
+introspection?
+  - [Here is a nice explanation of how OpenID connect works](https://yasasramanayaka.medium.com/openid-connect-authorization-code-flow-8c02081135fc).
+  - The OpenID Connect flow is projected on the euroteq usecase [in this diagram](./openidconnect.md)
+
 ## Status
 
 - Where can I see what has to be done, and what has already been done by
