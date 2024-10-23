@@ -14,6 +14,7 @@
     These endpoints will be protected using oauth tokens.
 
 ## About the broker
+
 - What is the edubroker?
   - The edubroker is a component hosted by SURF that initiates the enrollment-process for a student. The broker provides a visual interface with feedback for the student.
 - How can I enable the edubroker for my offerings on the frontend?
