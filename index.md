@@ -63,7 +63,7 @@ receiver and the custom implementation at the host institution?
     registrationUser: "user"  # These are configured in the broker section of the enrollment-receiver config file
     registrationPassword: "secret"  # These are configured in the broker section of the enrollment-receiver config file
     logoURI: https://static.surfconext.nl/logos/idp/surf.png # The logo to be displayed for your institution
-    scopes: demoinst02.eduxchange.eu/persons demoinst02.eduxchange.eu/results   # The scopes required for accessing the persons and associations endpoints
+    scopes: email schac_personal_unique_code demoinst02.eduxchange.eu/persons demoinst02.eduxchange.eu/results # Always "email schac_personal_unique_code" plus the scopes required for accessing the persons and associations endpoints
     privacyEndpoint: https://www.surf.nl/studentmobiliteit  # A link to the privacy declaration
     useEduHubForOffering: True # Should always be True for EuroTeq
     useQueueIt: False # Should always be False for EuroTeq
@@ -74,6 +74,8 @@ receiver and the custom implementation at the host institution?
   Scope is a mechanism in OAuth 2.0 to limit an application's access to a user's account. An application can request one or more scopes, this information is then presented to the user in the consent screen, and the access token issued to the application will be limited to the scopes granted.
 
   For EuroTeQ, two scopes are used:
+  - `email` : To retrieve the user's home institution email
+  - `schac_personal_unique_code` : To retrieve the user's identifier ath the home institution
   - `persons`: Personal Information
   - `results`: Enrollment and results
 
