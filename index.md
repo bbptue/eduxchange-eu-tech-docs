@@ -45,7 +45,7 @@ receiver and the custom implementation at the host institution?
   location. Please use a widely used library for all openID parts, instead
   of builing it.
 - How can we start an enrollment for testing?
-  - There is a [demo enrollment broker](https://demobroker.eduxchange.eu/)
+  - There is a [demo enrollment broker](https://broker.test.eduxchange.eu/)
   available for testing.
   - To connect to the demo enrollment broker, edit this yaml document
   and send it to Peter or Jelmer:
