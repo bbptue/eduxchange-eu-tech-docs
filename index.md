@@ -55,6 +55,9 @@ receiver and the custom implementation at the host institution?
     name: Demo 02 home  # The display name for your institution
     abbreviation: Demo02home  # The short name
     courseEndpoint: "https://demoinst02.eduxchange.eu/basic/offerings"  # The OOAPI endpoint for courses
+    courseAuthentication: BASIC  # For authenticating to the offerings endpoint, Not used when useEduHubForOffering=True
+    courseAuthenticationUserName: "user"  # For authenticating to the offerings endpoint, Not used when useEduHubForOffering=True
+    courseAuthenticationPassword: "secret"  # For authenticating to the offerings endpoint, Not used when useEduHubForOffering=True
     personsEndpoint: "https://demoinst02.eduxchange.eu/persons/me"  # The OOAPI endpoint for persons
     personAuthentication: HEADER  # Should always be HEADER for token based authentication
     associationsEndpoint: "https://demoinst02.eduxchange.eu/associations" # The OOAPI endpoint for courses
